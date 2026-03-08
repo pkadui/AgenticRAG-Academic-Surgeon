@@ -18,3 +18,9 @@ AgenticRAG 是一款专为 SCI 论文润色设计的智能代理系统。不同�
 git clone https://github.com/your-username/AgenticRAG-Academic-Surgeon.git
 cd AgenticRAG-Academic-Surgeon
 pip install -r requirements.txt
+2. 配置 API在项目根目录创建 .env 文件，或直接在终端设置：Bash# 设置你的 LLM API Key
+export OPENAI_API_KEY="your_key_here"
+# (可选) 设置网络搜索 Key
+export TAVILY_API_KEY="tvly-xxxx"
+3. 运行程序Bashpython main.py
+
