@@ -1,0 +1,39 @@
+# --- 核心框架 (Agent & Graph) ---
+langchain
+langgraph
+langchain-community
+langchain-openai
+python-dotenv
+tiktoken
+
+# --- 向量数据库与检索 (RAG) ---
+chromadb
+langchain-chroma
+sentence-transformers
+langchain-huggingface
+huggingface_hub[hf_xet]
+langchain-tavily
+
+# --- 数据持久化 (Checkpointer & Memory) ---
+aiosqlite
+duckdb
+duckdb-engine
+
+# --- 文档解析与处理 (Multimodal) ---
+python-docx             # 必须补充：用于读取 Word 文档
+unstructured
+pypdf
+openpyxl
+python-magic-bin
+pandas
+msoffcrypto-tool
+nltk
+beautifulsoup4          # 建议补充：辅助解析
+
+# --- 深度学习底层 ---
+torch>=2.6
+safetensors
+
+# --- 实用工具 ---
+tqdm
+pydantic>=2.0           # 建议补充：用于结构化输出定义
